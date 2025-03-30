@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <div class="sec1">
+        <img src="./images/background.jpg" alt="leaves" class="background-image">
+    </div>
+    <div class="sec2">
+        <div class="info">
+            <div class="info-section">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+        </div>
+        <div class="form">
+            <form action="" method="POST">
+                <div class="title">
+                    <h2>Let's do this!</h2>
+                </div>
+                <fieldset class="names">
+                    <div class="container">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" placeholder="Thor" id="firstName" name="firstName">
+                    </div>
+                    <div class="container">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" placeholder="Odinson" id="lastName" name="lastName">
+                    </div>
+                </fieldset>
+
+                <fieldset class="contact-info">
+                    <div class="container">
+                        <label for="email">EMAIL</label>
+                        <input type="email" placeholder="thor@odinson.com" id="email" name="email">
+                    </div>
+                    <div class="container">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="number" placeholder="123 456 7890" id="phone-number" name="phone-number">
+                    </div>
+                </fieldset>
+
+                <fieldset class="password">
+                    <div class="container">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" placeholder="Password" id="password" name="password">
+                    </div>
+                    <div class="container">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" placeholder="Confirm Password" id="confirm-password" name="confirm-password">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="bottom-section">
+            <button type="submit" class="btn">Create Account</button>
+        </div>
+    </div>
+    <script src="./dist/script.js"></script>
+</body>
+</html>

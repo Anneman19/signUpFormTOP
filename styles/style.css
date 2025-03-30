@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url("../fonts/Norse-Bold.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sec1 {
+    display: flex;
+    flex: 1;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    z-index: 1;
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.form {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+fieldset {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    gap: 5rem;
+}
+
+input {
+    min-width: calc(100% / 2 - 10px);
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: 40vh;
+    padding: 30px;
+}
+
+label {
+    font-weight: bold;
+    font-size: x-small;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex: 1;
+    max-height: 20vh;
+    padding: 20px;
+}
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px 10px 60px 10px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #596D48;
+}
